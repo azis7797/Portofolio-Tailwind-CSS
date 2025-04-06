@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Tailwind & Daisy UI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Tailwind Portofolio CSS</title>
+  </head>
+  <body class="font-['Ubuntu']"> 
+    <!-- nav bar section -->
+    <header class="bg-accent">
+      <nav class="md:container md:mx-auto">
+        <div class="navbar">
+          <div class="flex-1">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-accent text-white rounded-box w-52"
+              >
+              <li><a class=" text-lg hover:text-accent-focus hover:bg-white">About</a></li>
+              <li><a class=" text-lg hover:text-accent-focus hover:bg-white">Contact</a></li>
+              <li><a class=" text-lg hover:text-accent-focus hover:bg-white">Hire Me</a></li>
+              <li><a class=" text-lg hover:text-accent-focus hover:bg-white">GitHub</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost uppercase text-lg md:text-3xl text-white"
+              >Nur<span class="text-accent bg-white rounded-md px-3 py-1">Azis</span></a
+            >
+          </div>
+          <div class=" hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-lg text-white">
+              <li><a class=" hover:text-accent-focus hover:bg-white">About</a></li>
+              <li><a class=" hover:text-accent-focus hover:bg-white">Contact</a></li>
+              <li><a class=" hover:text-accent-focus hover:bg-white">Hire Me</a></li>
+              <li><a class=" hover:text-accent-focus hover:bg-white">GitHub</a></li>
+            </ul>
+          </div>
+          <div class="">
+            <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+              <div class="w-10 rounded-full">
+                <a href="www.linkedin.com/in/
+                nur-azis-544a79189
+                Nama Vanity URL
+                "><img src="images/avatar.png" /></a>
+              </div>
+            </label>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="">
+      <!-- Banner Section -->
+      <section>
+        <div class="hero h-[93vh] bg-bottom" style="background-image: url('./images/azis.jpg');">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="md:container md:mx-auto text-center lg:text-center text-white lg:flex lg:justify-end">
+            <div class="lg:max-w-[50%] ">
+              <h1 class="mb-5 text-4xl md:text-7xl font-bold">Nur <span class="text-accent">Azis</span></h1>
+              <blockquote class="my-quote text-xl md:text-4xl">
+                <span class="font-['Ubuntu'] text-error">Being A <span class="text-accent">Better Version</span> of Myself</span>
+              </blockquote>
+              <p class="mb-5 text-lg text-yellow-50">A budding web and mobile app developer. With skills in HTML, CSS, Tailwind, JavaScript, Java, Kotlin, XML, and GitHub, I create captivating interfaces and turn ideas into functional code. Welcome to my portfolio, where creativity and technology come together to shape a brighter digital future.</p>
+              <button class="btn bg-accent border-none text-yellow-50"><a href="www.linkedin.com/in/
+                nur-azis-544a79189
+                Nama Vanity URL
+                ">Contact Me</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="md:container md:mx-auto w-[90%] lg:w-auto mx-auto my-10">
+        <h1 class="lg:w-[40%] rounded-xl text-5xl lg:text-6xl text-center bg-accent text-white mx-auto">Skills I Know</h1>
+        <div class="flex flex-col lg:flex-row justify-between items-center mt-10 gap-10">
+          <!-- Left Side Content -->
+          <div class="w-full flex-1">
+            <img class="mx-auto rounded-xl" src="images/azis_cxb.jpg">
+            </img>
+          </div>
+          <!-- Right Side Content -->
+          <div class="w-full flex-1">
+          <div class="wrapper">
+            <span class="first-text">I'm a</span>
+            <ul class="sec-text text-accent">
+              <li><span>Web Developer</span></li>
+              <li><span>App Developer</span></li>
+              <li><span>Freelancer</span></li>
+              <li><span>Thinker</span></li>
+            </ul>
+          </div>
+          <p class="lg:max-w-[90%] w-">Are you in search of a highly skilled and versatile web developer to elevate your online presence and create stunning digital experiences? Look no further! As an accomplished web developer with a passion for crafting exceptional websites, I offer a diverse range of skills that are sure to meet and exceed your expectations.</p><br>
+          <p class="lg:max-w-[90%] w-">With a solid foundation in HTML and CSS, I can seamlessly bring your design ideas to life, ensuring your website is visually captivating and user-friendly. My proficiency in Tailwind CSS enables me to build responsive and mobile-friendly interfaces, guaranteeing a seamless browsing experience across all devices.</p><br>
+          <p class="lg:max-w-[90%] w-">When it comes to interactivity and dynamic elements, my expertise in JavaScript empowers me to implement captivating animations and enhance user engagement. Beyond frontend development, I possess in-depth knowledge of Java and Kotlin, enabling me to create powerful and robust backends, providing a smooth and secure user experience.</p><br>
+          <p class="lg:max-w-[90%] w-">By leveraging my comprehensive skill set and years of experience, I ensure that your website is not only visually stunning but also optimized for performance and search engines, driving more traffic and boosting conversions.</p><br>
+          <p class="lg:max-w-[90%] w-">Ready to take your web presence to new heights? Let's collaborate on your next project and create something extraordinary together. Contact me now and let's turn your vision into reality!</p><br>
+          <button class="bg-accent px-3 py-2 rounded-full text-white">Hire Me</button>
+        </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
